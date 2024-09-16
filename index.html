@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Spotify - Web Player: Music for everyone </title>
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="icon" href="img\logo.png"/>
+    <link rel="stylesheet" href="spotifyStyle.css"/>
+<!--Font Link-->
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" >
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body>
+    <div class="main">
+        <div class="sidebar">
+
+                        <!--Navbar Section-->
+
+            <div class="nav">
+                <div class="nav-option">
+                    <i class="fa-solid fa-house"></i>
+                    <a href="*">Home</a>
+                </div>
+                <div id="search" class="nav-option">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <a href="*" >Search</a>
+                </div>
+            </div>
+
+                        <!--Library Section-->
+
+            <div class="library">
+                <div class="option">
+                    <div class="library-option">
+                        <i class="fa fa-bars"></i>
+                        <i src="C:\Users\sksah\Downloads\library_icon.ico"></i>
+                        <a href="*" >Your Library</a>
+                    </div>
+                        <div class="icons">
+                            <i class="fa-solid fa-plus"></i>
+                            <i class="fa-solid fa-arrow-right"></i>                        
+                        </div>
+                </div>
+                <div class="library-box">
+                    <!--Box 1-->
+                    <div class="box">
+                        <p class="box-c1">Create your first playlist</p>
+                        <p class="box-c2">It's easy, we'll hepe you</p>
+                        <button class="badge" >Create playlist</button>
+                    </div>
+                    <!--Box 2-->
+                    <div class="box">
+                        <p class="box-c1">Let's find some prodcasts to follow</p>
+                        <p class="box-c2">We'll keep you updated on new episode</p>
+                        <button class="badge" >Browse prodcasts</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="contener">
+            <div class="sticky-navbar">
+                <div class="nav-con">
+                    <img class="con" src="img\backward_icon.png">
+                <img class="con hide" id="forward" src="img\forward_icon.png">
+                </div>
+                
+                <div class="nav-reg">
+                    <button class="badge hide" >Upgrade</button>
+                <button class="badge" id="app-install"><i class="fa-solid fa-circle-arrow-down"></i>Install App</button>
+                <i class="fa-regular fa-user"></i>
+                </div>
+                
+            </div>
+            <div class="cards">
+                <h2>Recently Played</h2>
+                <div class="cards-contaner">
+                    <div class="card">
+                        <img src="img\card1img.jpeg">
+                        <p class="card-title mar">Top 50 - Global</p    >
+                        <p class="card-info mar">Your daily updates of the most played...</p>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <div class="cards">
+                <h2>Trending now near you</h2>
+                <div class="cards-contaner">
+                    <div class="card">
+                        <img src="img\card2img.jpeg">
+                        <p class="card-title mar">Top 50 - Global</p    >
+                        <p class="card-info mar">Your daily updates of the most played...</p>
+                    </div>
+                    <div class="card">
+                        <img src="img\card3img.jpeg">
+                        <p class="card-title mar">Top 50 - Global</p    >
+                        <p class="card-info mar">Your daily updates of the most played...</p>
+                    </div>
+                    <div class="card">
+                        <img src="img\card4img.jpeg">
+                        <p class="card-title mar">Top 50 - Global</p    >
+                        <p class="card-info mar">Your daily updates of the most played...</p>
+                    </div>
+                    <div class="card">
+                        <img src="img\card5img.jpeg">
+                        <p class="card-title mar">Top 50 - Global</p    >
+                        <p class="card-info mar">Your daily updates of the most played...</p>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <div class="cards"> 
+                <h2>Featured Charts</h2>
+                <div class="cards-contaner">
+                    <div class="card">
+                        <img src="img\card5img.jpeg">
+                        <p class="card-title mar">Top 50 - Global</p    >
+                        <p class="card-info mar">Your daily updates of the most played...</p>
+                    </div>
+                    <div class="card">
+                        <img src="img\card6img.jpeg">
+                        <p class="card-title mar">Top 50 - Global</p    >
+                        <p class="card-info mar">Your daily updates of the most played...</p>
+                    </div>
+                    <div class="card">
+                        <img src="img\card1img.jpeg">
+                        <p class="card-title mar">Top 50 - Global</p    >
+                        <p class="card-info mar">Your daily updates of the most played...</p>
+                    </div>
+                </div>
+            </div>
+            <div class="footer">
+                <div class="line"></div>
+            </div>
+        </div>
+        <div class="player">
+            <div class="song">
+                <div class="song-pic">
+                    <img src="img\card2img.jpeg" >
+                </div>
+                <div class="song-name">
+                    <p class="song-titel">Daylight</p>
+                    <p class="song-writer">David Kushner</p>
+                </div>
+                <div class="song-botton">
+                    <i class="fa-regular fa-heart"></i>
+                </div>
+            </div>
+
+            <div class="controler">
+                <div class="up">
+                    <img class="upim" src="img\player_icon1.png">
+                    <img class="upim" src="img\player_icon2.png">
+                    <img class="upimc" src="img\player_icon3.png">
+                    <img class="upim" src="img\player_icon4.png">
+                    <img class="upim" src="img\player_icon5.png">
+                </div>
+                <div class="down">
+                    <p>1:50</p>
+                    <input class="drag" type="range" >
+                    <p>3:40</p>
+                </div>
+            </div>
+
+            <div class="otherbutton">
+                <i class="fa-regular fa-folder"></i>
+                <i class="fa-solid fa-microphone"></i>
+                <i class="fa-solid fa-list"></i>
+                <i class="fa-brands fa-chromecast"></i>
+                <i class="fa-solid fa-volume-high"></i>
+                <input class="volumebar" type="range">
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>
